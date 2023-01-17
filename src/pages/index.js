@@ -1,0 +1,8 @@
+export { Home } from './Home'
+export { Pay } from './Pay'
+export { Withdraw } from './Withdraw'
+export { Settings } from './Settings'
+export { SponsorEverton } from './SponsorEverton'
+export { SponsorWatford } from './SponsorWatford'
+export { Promotion } from './Promotion'
+export { Casino } from './Casino'

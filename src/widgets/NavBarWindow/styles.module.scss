@@ -1,0 +1,168 @@
+.windowWrapper {
+	z-index: 1500;
+	height: 100vh;
+	width: 180px;
+	word-wrap: break-word;
+	position: fixed;
+	background: #0f212e;
+	filter: drop-shadow(0 0 5px rgba(25, 25, 25, 0.25));
+	display: flex;
+	flex-direction: column;
+	flex-shrink: 0;
+	margin: 0 0 0 -180px;
+	transition: all 0.7s;
+}
+.active {
+	margin: 0;
+}
+
+.headerWindow {
+	background: #0f212e;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 2;
+	position: relative;
+	flex-shrink: 0;
+	touch-action: none;
+	box-shadow: #0003 0 4px 6px -1px, #0000001f 0 2px 4px -1px;
+	height: 60px;
+	padding: 1rem 1.5rem;
+}
+
+.headerWindowText {
+	font-size: 1.3rem;
+	font-family: 'Satisfy', cursive;
+	color: #fff;
+	font-weight: 600;
+}
+
+.headerWindowTitle {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	padding: 0.5rem;
+	justify-content: stretch;
+}
+
+.closeWrapper {
+	position: absolute;
+	top: calc((60px) / 2);
+	right: 0;
+	z-index: 2;
+	transform: translate(50%, -50%);
+	margin-left: auto;
+}
+
+.hoverable {
+	cursor: grab;
+	display: inline-flex;
+}
+
+.closeBtn {
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+	color: #d5dceb;
+	background: #2f4553;
+	padding: 0.75em 1em;
+	border-radius: 15px;
+	border: none;
+	cursor: pointer;
+}
+.closeBtn:hover {
+	background-color: #557086;
+}
+
+.contentLoader {
+	width: 20px;
+	height: 16px;
+	display: inline-flex;
+	position: relative;
+	align-items: center;
+}
+
+.contentWindow {
+	display: flex;
+	overflow: hidden;
+	flex-direction: column;
+	padding: 0 0 0 0.5rem;
+	touch-action: pan-x;
+	flex-grow: 1;
+	flex-shrink: 1;
+	font-family: 'Proxima Nova', sans-serif;
+	flex-basis: 0%;
+	margin-top: 1rem;
+	box-shadow: #0003 0 4px 6px -1px, #0000001f 0 2px 4px -1px;
+}
+
+.scroll {
+	overscroll-behavior-x: contain;
+	overscroll-behavior-y: contain;
+}
+.scroll:hover {
+	background: #071824;
+	border-radius: 20px;
+}
+
+.item {
+	max-width: 100%;
+	color: white;
+	background: 0 0;
+	background-image: initial;
+	background-position-x: 0px;
+	background-position-y: 0px;
+	background-size: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: initial;
+	box-shadow: none !important;
+	padding: 0.75em 1em;
+	display: flex;
+	width: 100%;
+	justify-content: flex-start;
+	font-size: 0.875rem;
+	font-weight: 600;
+	line-height: 150%;
+	cursor: pointer;
+	border: none;
+	text-decoration: none;
+}
+
+.item:active {
+	opacity: 0.5;
+}
+
+.contentLoader {
+	width: 100%;
+	display: inline-flex;
+	position: relative;
+	align-items: center;
+}
+
+.contentLoader div {
+	display: flex;
+	align-items: center;
+}
+
+.icon {
+	transition: 0.2s;
+	color: #b1bad3;
+	pointer-events: none;
+	stroke-width: 0;
+	stroke: currentColor;
+	fill: currentColor;
+	flex-shrink: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 0.5em;
+}
+
+.separator {
+	background: #2f4553;
+	height: 2px;
+	width: 90%;
+	margin: 0;
+	border: 0;
+}

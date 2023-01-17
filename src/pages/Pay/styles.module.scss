@@ -1,0 +1,323 @@
+.conentWrapper {
+	background-color: #0f212e;
+	background-image: url(../../assets/img/abstract-bg-71bdcaae.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	top: 60px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	// padding: 1rem 5rem 15rem 5rem;
+	height: 100vh;
+	cursor: default;
+}
+
+.header {
+	margin-bottom: 20px;
+}
+
+.logoWrapper {
+	margin: 50px;
+}
+
+.logoText {
+	font-size: 95px;
+	font-family: 'Satisfy', cursive;
+	color: #fff;
+}
+
+.headerInfoWrapper {
+	display: flex;
+	color: #fff;
+	font-family: 'Proxima Nova', sans-serif;
+	font-size: 0.875rem;
+}
+
+.headerInfoTitle {
+	font-family: 'Proxima Nova', sans-serif;
+	font-size: 1rem;
+	font-size: 1rem;
+	width: 200px;
+	font-weight: 600;
+}
+
+.wrap {
+	display: flex;
+}
+
+.text {
+	font-weight: 600;
+	font-family: 'Proxima Nova', sans-serif;
+}
+
+.mainTitle {
+	font-family: 'Proxima Nova', sans-serif;
+	color: #b1bad3;
+	font-weight: 700;
+	font-size: 2rem;
+	margin-bottom: 15px;
+}
+
+.cardBlock {
+	width: 560px;
+	height: 300px;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	border: 0;
+	position: relative;
+}
+
+.front {
+	background: url(../../assets/img/frontCard.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	margin-top: 0px;
+	margin-left: 0px;
+	text-align: right;
+	padding: 15px;
+	max-width: 370px;
+	box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.back {
+	background: url(../../assets/img/backCard.jpg);
+	display: flex;
+	align-items: center;
+	z-index: 1;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 350px;
+	height: 210px;
+	border-radius: 10px;
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 160px;
+	box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.cardNumberField {
+	cursor: pointer;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	width: 320px;
+	margin-bottom: 12px;
+	display: block;
+	text-align: right;
+	color: #d4d2d4;
+}
+
+.cardText {
+	margin-top: 20px;
+	display: block;
+	width: 320px;
+	color: #737373;
+	margin-bottom: 4px;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+.inputCardNumber {
+	color: white;
+	height: 32px;
+	width: 298px;
+	background-color: transparent;
+	font-size: 16px;
+	line-height: 16px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 3px;
+	padding: 6px;
+	border: 1px solid #c0c0c0;
+	outline: none;
+	font-weight: 600;
+}
+
+.cardExpire {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	width: 320px;
+	margin-bottom: 12px;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.cardExpireSpan {
+	display: block;
+	width: 320px;
+	color: #737373;
+	margin-bottom: 4px;
+	font-size: 11px;
+	text-transform: uppercase;
+	width: 160px;
+}
+
+.cardExpireText {
+	font-weight: normal;
+	color: #737373;
+	font-size: 11px;
+	text-transform: uppercase;
+	margin-right: 5px;
+}
+
+.inputExpireMonth {
+	margin-right: 3px;
+	color: white;
+	background-color: transparent;
+	height: 32px;
+	width: 66px;
+	line-height: 16px;
+	text-align: center;
+	font-family: 'roboto_condensedbold', sans-serif;
+	font-size: 16px;
+	background-image: none !important;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 3px;
+	padding: 6px;
+	border: 1px solid #c0c0c0;
+	outline: none;
+}
+
+.inputSlash {
+	color: #737373;
+}
+
+.inputExpireYear {
+	margin-right: 3px;
+	color: white;
+	background-color: transparent;
+	height: 32px;
+	width: 66px;
+	line-height: 16px;
+	text-align: center;
+	font-family: 'roboto_condensedbold', sans-serif;
+	font-size: 16px;
+	background-image: none !important;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 3px;
+	padding: 6px;
+	border: 1px solid #c0c0c0;
+	outline: none;
+}
+
+.cardHolderField {
+	cursor: pointer;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	width: 320px;
+	margin-bottom: 12px;
+	display: block;
+	text-align: right;
+	color: #d4d2d4;
+	font-size: 14px;
+}
+
+.cardHolderText {
+	text-align: right;
+	color: #737373;
+	font-size: 14px;
+}
+
+.inputCardHolder {
+	color: white;
+	height: 32px;
+	width: 298px;
+	font-size: 16px;
+	line-height: 16px;
+	background: transparent !important;
+	border: 1px solid white;
+	border-radius: 3px;
+	padding: 6px;
+	outline: none;
+	margin-top: 5px;
+}
+
+.cvcField {
+	width: 380px;
+	border: 0;
+	margin: 0px;
+	text-align: right;
+	display: flex;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.cvcField span {
+	display: block;
+	width: 230px;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #fff;
+	text-align: right;
+	align-items: center;
+}
+
+.cvvInput {
+	margin-right: 3px;
+	color: white;
+	background-color: transparent;
+	height: 32px;
+	width: 66px;
+	line-height: 16px;
+	text-align: center;
+	font-size: 16px;
+	background-image: none !important;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-bottom: 6px;
+	margin-left: 6px;
+	background: transparent !important;
+	border: 1px solid white;
+	border-radius: 3px;
+	padding: 6px;
+	outline: none;
+}
+
+.paymentBtn {
+	margin-top: 0.5rem;
+	border: none;
+	background-color: #1475e1;
+	color: #fff;
+	cursor: pointer;
+	font-family: 'Proxima Nova', sans-serif;
+	font-size: 1.2rem;
+	padding: 1rem;
+	border-radius: 15px;
+}
+
+.paymentBtn:hover {
+	opacity: 0.8;
+}
+
+.paymentBtn:active {
+	opacity: 0.5;
+}
+
+.errorText {
+	margin-top: 0.8rem;
+	color: #fe2247;
+	font-size: 1rem;
+	font-weight: 600;
+	font-family: 'Proxima Nova', sans-serif;
+}
+
+.error {
+	border: 2px solid #fe2247;
+}

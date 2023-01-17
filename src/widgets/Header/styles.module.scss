@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 70px;
+  margin-left: 2.5rem;
+}
+
+.logoImg {
+  color:  white;
+  width: 67px;
+  height: 40px;
+}
+
+.logoImg:hover {
+  opacity: 0.8;
+}
+
+.logoImg:active {
+  opacity: 0.5;
+}
+
+.headerWrapper {
+  padding: 0 11vw 0 12vw;
+  width: 100%;
+  height: 60px;
+  background-color: #1a2c38;
+  align-items: center;
+  display: flex;
+  box-shadow: #0003 0 4px 6px -1px, #0000001f 0 2px 4px -1px;
+  touch-action: none;
+  letter-spacing: normal;
+   position: fixed;
+  z-index: 1500;
+}
+
+.btnField {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+ 
+}
+
+.signInBtn {
+  color: #fff;
+  background: 0 0;
+  border-radius: 0.25rem;
+  outline: none;
+  padding: .75em 1em;
+  justify-content: flex-start;
+  font-size: .875rem;
+  line-height: 150%;
+  font-weight: 600;
+  appearance: none;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+  touch-action: manipulation;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color .2s, color .2s;
+  flex-shrink: 0;
+  outline: none;
+}
+
+.signInBtnText {
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  color: #fff;
+}
+
+signInBtn:hover, btnReg:hover {
+  opacity: 0.8;
+}
+
+signInBtn:active, btnReg:active {
+  opacity: 0.5;
+}
+
+.btnReg {
+  color: #fff;
+  background: #105EB4;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2), 0 1px 2px 0 rgba(0, 0, 0, .12), inset 0 1px rgba(255, 255, 255, .04);
+  border-radius: .25rem;
+  padding: .75em 1em;
+  justify-content: flex-start;
+  line-height: 150%;
+  font-weight: 600;
+  font-size: .875rem;
+  appearance: none;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+  touch-action: manipulation;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color .2s, color .2s;
+  flex-shrink: 0;
+  outline: none;
+}
+
+.btnText {
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  color: #fff;
+  border-radius: 0.2rem;
+}

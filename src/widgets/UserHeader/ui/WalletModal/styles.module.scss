@@ -1,0 +1,205 @@
+.modalWindow {
+	z-index: 1602;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.875rem;
+}
+
+.overlay {
+	cursor: pointer;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(14, 18, 36, 0.7);
+	touch-action: none;
+}
+
+.window {
+	border-radius: 0.5rem;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	width: 100%;
+	min-width: 200px;
+	max-width: 500px;
+	max-height: calc(100% - 4em);
+	display: flex;
+	flex-direction: column;
+	background: #1a2c38;
+	color: #b1bad3;
+	overflow: hidden;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 1.25rem 1.5rem;
+	touch-action: none;
+	cursor: default;
+}
+
+.walletTextWrapper {
+	display: inline-flex;
+	align-items: center;
+}
+
+.walletIcon {
+	pointer-events: none;
+	stroke-width: 0;
+	stroke: currentColor;
+	fill: currentColor;
+	flex-shrink: 0;
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	color: #b1bad3;
+	margin-right: 0.5rem;
+}
+
+.walletText {
+	font-family: 'Proxima Nova', sans-serif;
+	color: #fff;
+	line-height: 1.5;
+	text-align: left;
+	justify-content: flex-start;
+	font-weight: 600;
+	display: inline-flex;
+	align-items: center;
+	font-size: 1rem;
+}
+
+.closeBtn {
+	background: 0 0;
+	border-radius: 0.25rem;
+	justify-content: flex-start;
+	font-weight: 600;
+	line-height: 150%;
+	appearance: none;
+	margin: 0;
+	border: none;
+	font-size: inherit;
+	cursor: pointer;
+	touch-action: manipulation;
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	-webkit-tap-highlight-color: transparent;
+	transition: background-color 0.2s, color 0.2s;
+	flex-shrink: 0;
+	outline: none;
+}
+
+.closeBtn:hover {
+	opacity: 0.8;
+}
+
+.closeBtn:active {
+	opacity: 0.5;
+}
+
+.closeIcon {
+	width: 24px;
+	height: 24px;
+	color: #b1bad3;
+}
+
+.content {
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 1.25rem;
+}
+
+.centerWrapper {
+	max-width: 100%;
+	align-self: center;
+}
+
+.tabsWrapper {
+	display: flex;
+}
+
+.slider {
+	background: #0f212e;
+	display: flex;
+	border-radius: 3rem;
+	padding: 5px;
+	flex-shrink: 0;
+}
+
+.contentWrapper {
+	display: flex;
+	gap: 3px;
+}
+
+.walletBtnActive {
+	color: #fff;
+	background: #2f4553 !important;
+	box-shadow: none !important;
+	padding: 0.75em 1em;
+	justify-content: flex-start;
+	font-size: 0.875rem;
+	font-weight: 600;
+	line-height: 150%;
+	appearance: none;
+	margin: 0;
+	border: none;
+	cursor: pointer;
+	touch-action: manipulation;
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	border-radius: 100px;
+	-webkit-tap-highlight-color: transparent;
+	transition: background-color 0.2s, color 0.2s;
+	flex-shrink: 0;
+	outline: none;
+}
+
+.walletBtnDisabled {
+	color: #fff;
+	background: #0f212e;
+	box-shadow: none !important;
+	padding: 0.75em 1em;
+	justify-content: flex-start;
+	font-size: 0.875rem;
+	font-weight: 600;
+	line-height: 150%;
+	appearance: none;
+	margin: 0;
+	border: none;
+	cursor: pointer;
+	touch-action: manipulation;
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	border-radius: 100px;
+	-webkit-tap-highlight-color: transparent;
+	transition: background-color 0.2s, color 0.2s;
+	flex-shrink: 0;
+	outline: none;
+}
+
+.walletBtnDisabled:hover {
+	background: #2f4553;
+}
+
+.walletBtnDisabled:active {
+	opacity: 0.5;
+}
+
+.walletBtnText {
+	display: inline-flex;
+	position: relative;
+	align-items: center;
+}

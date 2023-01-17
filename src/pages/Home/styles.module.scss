@@ -1,0 +1,24 @@
+.wrapper {
+	top: 60px;
+	position: relative;
+	background-color: #1a2c38;
+	padding: 20px 11vw 50px 12vw;
+	margin: auto;
+	transition: padding 0.3s;
+}
+
+.active {
+	padding: 20px 9vw 50px 13vw;
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+}
+
+::-webkit-scrollbar-track {
+	background: #1a2c38;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #2f4553;
+}

@@ -1,0 +1,88 @@
+.footerContant {
+    background-color: #071d2a;
+    top: 60px;
+    position: relative;
+    padding: 35px 11vw 35px 12vw;
+    margin: auto;
+    display: grid;
+    grid-gap: 2rem;
+}
+
+.titleFooter {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.li {
+    font-size: .875rem;
+    color: #b1bad3;
+    list-style-type: none;
+    cursor: pointer;
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.li:hover {
+    color: #fff;
+}
+
+.li:active {
+    opacity: .5;
+}
+
+.hr {
+    border-top: 2px solid #213743;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.mainPartners {
+
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    justify-items: center;
+}
+
+.logoPartner {
+    width: auto;
+    height: 60px;
+}
+
+.logoWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.logoImg {
+    width: auto;
+    height: 2.5rem;
+    margin: 0 auto;
+}
+
+.footerText {
+    color: #b1bad3;
+    font-size: .875rem;
+    text-align: center;
+}
+
+.wrapLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: .5rem;
+}

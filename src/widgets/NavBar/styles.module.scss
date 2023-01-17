@@ -1,0 +1,132 @@
+.navBarWrapper {
+	z-index: 1501;
+	height: 100vh;
+	width: 60px;
+	position: fixed;
+	background: #0f212e;
+	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2),
+		0 4px 6px -2px rgba(0, 0, 0, 0.1);
+	margin: 0 0 0 -60px;
+	transition: all 0.7s;
+}
+.active {
+	margin: 0;
+}
+
+.header {
+	background: #0f212e;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	height: 60px;
+	z-index: 2;
+	position: relative;
+	flex-shrink: 0;
+	touch-action: none;
+	justify-content: center;
+	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2),
+		0 4px 6px -2px rgba(0, 0, 0, 0.1);
+}
+
+.hoverable {
+	cursor: pointer;
+	display: inline-flex;
+	justify-content: center;
+	padding: 0.5rem;
+	width: 42px;
+	height: 35px;
+	outline: none;
+	border: none;
+	background: #0f212e;
+	outline: none;
+}
+
+.hoverable:hover {
+	background: #071824;
+	border-radius: 10px;
+}
+
+.hoverable:active {
+	opacity: 0.5;
+}
+
+.hoverableActive {
+	cursor: pointer;
+	display: inline-flex;
+	justify-content: center;
+	padding: 0.5rem;
+	width: 42px;
+	height: 35px;
+	outline: none;
+	border: none;
+	background: #071824;
+	outline: none;
+	border-radius: 10px;
+}
+
+.hoverableActive:active {
+	opacity: 0.5;
+}
+
+.variantPused {
+	outline: none;
+}
+
+.contentLoader {
+	display: inline-flex;
+	position: relative;
+	align-items: center;
+}
+
+.contentLoader:hover {
+	color: #fff;
+	background: #071824 !important;
+	border: none solid #071824;
+	border-radius: 15px;
+}
+
+.contentText {
+	color: #fff;
+	text-decoration: none;
+	font-size: 0.68rem;
+}
+
+.scroll {
+	padding: 1rem 0;
+	display: grid;
+	overflow: hidden;
+	grid-auto-flow: row;
+	align-content: flex-start;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0%;
+	width: 60px;
+}
+
+.scrollebleContent {
+	display: grid;
+	grid-auto-flow: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.lineWrapper {
+	padding: 0.5rem 1rem;
+}
+
+.separator {
+	background: #2f4553;
+	height: 2px;
+	width: 100%;
+	margin: 0;
+	border: 0;
+}
+
+.icon {
+	width: 1rem;
+	height: 1rem;
+}
+
+.icon:hover {
+	background: #071824;
+}

@@ -1,0 +1,274 @@
+.headerWrapper {
+	width: 100%;
+	height: 60px;
+	z-index: 100;
+	background: #1a2c38;
+	align-items: center;
+	display: flex;
+	box-shadow: #0003 0 4px 6px -1px, #0000001f 0 2px 4px -1px;
+	touch-action: none;
+	position: fixed;
+}
+
+.header {
+	width: 100%;
+	padding: 0 12vw 0 12vw;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.container {
+	width: 100%;
+	max-width: 1600px;
+}
+
+.navigationContainer {
+	justify-content: space-between;
+	gap: 1rem;
+	position: relative;
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+
+.logoImg {
+	color: white;
+	width: 67px;
+	height: 40px;
+}
+
+.balanceWrapper {
+	display: flex;
+	background: #0f212e;
+	border-radius: 0.25rem;
+}
+
+.balance {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.dropdown {
+	position: relative;
+	display: inline;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.moneyWrapper {
+	color: #fff;
+	background: #0f212e;
+	box-shadow: none;
+	border-radius: 0.25rem;
+	padding: 0.75em 1em;
+	font-size: 0.875rem;
+	cursor: pointer;
+	font-weight: 600;
+	line-height: 150%;
+	border: none;
+	position: relative;
+}
+
+.moneyWrapper:hover {
+	background-color: #071824;
+}
+
+.moneyWrapper:active {
+	opacity: 0.5;
+}
+
+.content {
+	display: inline-flex;
+	position: relative;
+	align-items: center;
+}
+
+.wrap {
+	position: relative;
+}
+
+.currency {
+	display: inline-flex;
+	align-items: center;
+}
+
+.currencyContent {
+	display: flex;
+	overflow: hidden;
+	white-space: nowrap;
+	font-variant-numeric: tabular-nums;
+}
+
+.currencyText {
+	max-width: 12ch;
+	color: #fff;
+	line-height: 1.5;
+	text-align: left;
+	justify-content: flex-start;
+	font-size: 0.875rem;
+	font-weight: 600;
+	font-variant-numeric: tabular-nums;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: inherit;
+	
+}
+
+.iconWrap {
+	max-width: 12ch;
+	color: #b1bad3;
+	line-height: 1.5;
+	text-align: left;
+	justify-content: flex-start;
+	font-size: 0.875rem;
+	font-weight: 400;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: inherit;
+	margin-left: 0.25rem;
+	align-items: center;
+	margin-left: 0.25rem;
+}
+
+.walletButton {
+	border-radius: 0 0.25rem 0.25rem 0;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.12),
+		inset 0 1px rgba(255, 255, 255, 0.04);
+	color: #fff;
+	background: #1475e1;
+	padding: 0.75em 1em;
+	justify-content: flex-start;
+	font-size: 0.875rem;
+	font-weight: 600;
+	line-height: 150%;
+	border: none;
+	cursor: pointer;
+}
+
+.walletButton:hover {
+	opacity: 0.8;
+}
+
+.walletButton:active {
+	opacity: 0.5;
+}
+
+.walletButtonText {
+	display: inline-flex;
+	position: relative;
+	align-items: center;
+	font-family: 'Proxima Nova', sans-serif;
+}
+
+.currencyWrapper {
+	display: flex;
+}
+
+.userWindowButton {
+	color: #fff;
+	background: 0 0;
+	border-radius: 0.25rem;
+	outline: none;
+	padding: 0.25em 1em;
+	justify-content: flex-start;
+	font-size: 0.875rem;
+	font-weight: 600;
+	line-height: 150%;
+	border: none;
+	cursor: pointer;
+	position: relative;
+}
+
+.userWindowButton:active {
+	opacity: 0.8;
+}
+
+.userWindowIconWrapper {
+	display: inline-flex;
+	align-items: center;
+	position: relative;
+}
+
+.imgPerson {
+	width: 20px;
+	height: 24px;
+	color: #fff;
+}
+
+.userBtns {
+	display: grid;
+	grid-auto-flow: column;
+	justify-content: flex-end;
+	padding: 0;
+}
+
+.userToolWindowWraper {
+	position: absolute;
+	font-family: 'Proxima Nova', sans-serif;
+	background-color: #fff;
+	left: -80%;
+	top: 40px;
+	border-radius: 5px;
+}
+
+.userToolWindow {
+	padding: 0.25rem 0;
+	gap: 5px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.arrowIcon {
+	position: absolute;
+	color: #fff;
+	width: 15px;
+	height: 15px;
+	bottom: 170px;
+	left: 40%;
+}
+
+.userTool {
+	cursor: pointer;
+	border: none;
+	font-family: 'Proxima Nova', sans-serif;
+	display: flex;
+	padding: 0.5em 1em;
+	justify-content: flex-start;
+	font-size: 0.875rem;
+	font-weight: 600;
+	align-items: center;
+	min-width: 4.5rem;
+	color: #2f4553;
+	background-color: #fff;
+}
+
+.userTool:hover {
+	transition: all 0.2s;
+	background-color: #d5dceb;
+	color: #1a2c38;
+}
+
+.userTool:active {
+	opacity: 0.5;
+}
+
+.userToolIcon {
+	width: 14px;
+	height: 14px;
+}
+
+.userToolText {
+	margin-left: 0.5rem;
+}

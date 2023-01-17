@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 40% 50%;
+	justify-content: space-between;
+	align-items: center;
+	background-image: url(../../../../assets/img/abstract-bg-71bdcaae.svg);
+	background-size: 60%;
+	background-color: #0f212e;
+	background-position: left;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 60px;
+	padding: 0 11vw 0 12vw;
+	transition: padding 0.3s;
+}
+
+.active {
+	padding: 0 9vw 0 13vw;
+}
+
+.contener {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	padding: 32px 0px;
+	width: 325px;
+}
+.title {
+	font-family: 'Proxima Nova', sans-serif;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 1rem;
+	align-items: center;
+}
+
+.mainBtn {
+	cursor: pointer;
+	padding: 0;
+	border: none;
+	width: 100%;
+	font-family: 'Proxima Nova', sans-serif;
+	font-size: 14px;
+	background-color: #1475e1;
+	color: #fff;
+	border-radius: 100px;
+	padding: 10.5px 14px;
+	margin-bottom: 0.75rem;
+}
+
+.mainBtn:hover {
+	background-color: #105eb4;
+}
+
+.mainBtn:active {
+	opacity: 0.5;
+}
+
+.networks {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.authWrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.orText {
+	cursor: default;
+	font-family: 'Proxima Nova', sans-serif;
+	color: #b1bad3;
+	line-height: 1.5;
+	text-align: center;
+	justify-content: center;
+	font-size: 0.875rem;
+	font-weight: 400;
+	padding: 0 0.5rem;
+	display: inline-flex;
+	align-items: center;
+}
+.orContent {
+	max-width: 200px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-self: center;
+	margin-bottom: 0.75rem;
+}
+
+.orContent::before {
+	content: '';
+	display: inline-flex;
+	height: 1px;
+	background: #2f4553;
+	flex: 1;
+}
+
+.orContent::after {
+	content: '';
+	display: inline-flex;
+	height: 1px;
+	background: #2f4553;
+	flex: 1;
+}
+
+.socialNetworks {
+	color: #d5dceb;
+	background-color: #2f4553;
+	border: none;
+	font-size: 1.3rem;
+	padding: 8px 40px 0px 40px;
+	border-radius: 0.25rem;
+}
+
+.socialNetworks:hover {
+	background-color: #557086;
+}
+
+.socialNetworks:active {
+	opacity: 0.5;
+}

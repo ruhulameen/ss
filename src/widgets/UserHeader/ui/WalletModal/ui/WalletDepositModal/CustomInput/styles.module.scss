@@ -1,0 +1,80 @@
+.inputTextWrapper {
+	display: inline-flex;
+	align-items: center;
+	font-weight: 600;
+	font-size: 0.875rem;
+	color: #b1bad3;
+	transition: 0.2s;
+	letter-spacing: 0;
+	padding: 0 0 0.25rem;
+	justify-content: space-between;
+}
+
+.inputTextErrorWrapper {
+	display: inline-flex;
+	align-items: center;
+	font-weight: 600;
+	font-size: 0.875rem;
+	color: #fe2247;
+	transition: 0.2s;
+	letter-spacing: 0;
+	padding: 0 0 0.25rem;
+	justify-content: space-between;
+}
+
+.inputText {
+	display: inline-flex;
+	width: 100%;
+}
+
+.input {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	background: #2f4553;
+	padding: 0.5em;
+	width: 100%;
+	color: #fff;
+	border: 2px solid #2f4553;
+	border-radius: 0.25rem;
+	letter-spacing: 0;
+	font-weight: 600;
+	transition: all 0.25s;
+	outline: 0;
+	margin: 0;
+	cursor: text;
+	line-height: 1.5;
+	margin-top: 5px;
+}
+
+.inputError {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	background: #2f4553;
+	padding: 0.5em;
+	width: 100%;
+	color: #fff;
+	border: 2px solid #fe2247;
+	letter-spacing: 0;
+	font-weight: 600;
+	transition: all 0.25s;
+	outline: 0;
+	margin: 0;
+	cursor: text;
+	line-height: 1.5;
+}
+
+.errorWrapper {
+	font-family: 'Proxima Nova', sans-serif;
+	margin-top: 0.5rem;
+	font-size: 0.875rem;
+	color: #fe2247;
+	font-weight: 500;
+}
+
+.textWrapper {
+	font-family: 'Proxima Nova', sans-serif;
+	margin-top: 0.5rem;
+	font-size: 0.875rem;
+	color: #b1bad3;
+	font-weight: 500;
+}

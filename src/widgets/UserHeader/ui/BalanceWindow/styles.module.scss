@@ -1,0 +1,126 @@
+.modalWindowWrapper{
+  position: absolute;
+  background-color: #fff;
+  font-weight: 500;
+  left: -110px;
+  top: 35px;
+  border-radius: 5px;
+  width: 300px;
+  height: 360px;
+  z-index: 2000;
+  font-family: 'Proxima Nova', sans-serif;
+  overflow: hidden;
+}
+
+.arrow {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    top: -1.2%;
+    color: #fff;
+}
+
+.buttomBlock{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  align-items: center;
+
+}
+
+.balance{
+  margin-left: 5px;
+}
+.discrip{
+  color: #2f4553;
+  padding-left: 5px;
+  border: none;
+  cursor: pointer;
+  background: none;
+  font-size: 0.75rem;
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+.discrip:hover{
+  opacity: 0.8;
+}
+
+.walletSet{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+}
+
+.balanceInfo{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  padding-left: 20px;
+  color: #2f4553;
+  font-family: 'Proxima Nova', sans-serif;
+
+}
+
+.balanceInfo:hover{
+  background-color: rgb(170, 167, 167);
+}
+
+.typeCurrency{
+  margin-right: 50px;
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+.input{
+  padding: 5px;
+  width: 260px;
+  border-radius: 5px;
+  margin-top: 14px;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  color: #2f4553
+}
+
+.form{
+  display: table;
+  margin: 0 auto;
+
+}
+.icon{
+  color: #2f4553
+}
+
+// .scroll{
+//   overflow: hidden;
+//   overflow-y: auto;
+//   overflow-x: hidden;
+//   -webkit-overflow-scrolling: touch;
+//   -webkit-overflow-scroll: touch;
+//   scrollbar-width: thin;
+//   scrollbar-color: #b1bad3 transparent;
+//   overscroll-behavior: contain;
+
+// }
+
+.scroll {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 100%;
+	height: 100%;
+	flex: 1;
+	overscroll-behavior: contain;
+	overflow-y: auto;
+	overflow-x: hidden;
+	min-height: 0;
+  	max-height: 306px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+	color: #e3e5ea;
+	z-index: 1500;
+	cursor: default;
+}

@@ -1,0 +1,124 @@
+.PlayBanner {
+  background-color: #0f212e;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.5rem;
+}
+
+h3 {
+  font-family: 'Proxima Nova', sans-serif;
+  color: white;
+  text-align: left;
+  justify-content: flex-start;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+}
+.spaceTitle {
+  height: 1.75rem;
+  display: block;
+  flex-grow: 0;
+}
+
+.contentArea {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  width: 100%;
+  justify-items: center;
+  gap: 1rem;
+  padding: 1rem 2.5rem;
+}
+
+.blockWrapper {
+  padding: 1rem;
+  background-color: #213743;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  user-select: none;
+}
+
+.spaceImg {
+  height: 1.25rem;
+  display: block;
+  flex-grow: 0;
+}
+
+h4 {
+  font-family: 'Proxima Nova', sans-serif;
+  color: white;
+  line-height: 1.5;
+  text-align: left;
+  justify-content: flex-start;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.descriotion {
+  color: #b1bad3;
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+.space {
+  height: 0.25rem;
+  display: block;
+  flex-grow: 0;
+}
+
+.btnGoTo {
+  cursor: pointer;
+    border: none;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: .875rem;
+    background-color: #1475e1;
+    color: #fff;
+    border-radius: 5px;
+    padding: .65rem;
+    font-weight: 600;
+    width: 35%;
+    text-decoration: none;
+}
+btnGoTo {
+  background: none;
+  font-weight: 600;
+  line-height: 150%;
+  padding: 0;
+}
+
+btnGoTo:hover {
+  opacity: 0.8;
+}
+
+btnGoTo:active {
+  opacity: 0.5;
+}
+
+.linkGoTo {
+  color: #fff;
+  background: #105EB4;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2), 0 1px 2px 0 rgba(0, 0, 0, .12), inset 0 1px rgba(255, 255, 255, .04);
+  border-radius: .25rem;
+  padding: .75em 1em;
+  justify-content: center;
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 150%;
+  text-decoration: none;
+}
+
+.linkGoTo:hover {
+  opacity: 0.8;
+}
+
+.linkGoTo:active {
+  opacity: 0.5;
+}

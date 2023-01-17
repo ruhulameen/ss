@@ -1,0 +1,83 @@
+.wrapper {
+    top: 60px;
+    position: relative;
+    background-color: #1a2c38;
+    padding: 32px 8vw 32px 8vw;
+    margin: auto;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track { 
+    background:  #1a2c38;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2f4553;
+}
+
+.headerWrapper{
+    display: flex;
+    // grid-gap: 1rem;
+    // grid-template-columns: 1fr 1fr;
+    background-color: #0f212e;
+    top: 60px;
+    position: relative;
+    padding: 20px 8vw 20px 8vw;
+    margin: auto;
+    max-height: 230px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.headerWrapperTitle{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.headerWrapperLogo{
+height: 150px;
+padding-right: 80px;
+
+}
+
+.title{
+    font-size: 2rem;
+    color: #fff;
+    line-height: 132%;
+    font-weight: 600;
+    margin-bottom: .25rem;
+}
+
+.secondaryTitle{
+    font-size: 1.5rem;
+    color: #B1BAD3;
+    font-weight: 400;
+    line-height: 132%;
+}
+
+.contantBlockInfoTitle{
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: .5rem;
+}
+
+.contantBlockInfoText{
+    color: #B1BAD3;
+    font-size: 1rem;
+    line-height: 150%;
+    text-align: left;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.contantBlock{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-bottom: 32px;
+}

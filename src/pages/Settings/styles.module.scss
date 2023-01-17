@@ -1,0 +1,85 @@
+.wrapper {
+    top: 60px;
+    position: relative;
+    background-color: #1a2c38;
+    padding: 32px 12vw 32px 12vw;
+    margin: auto;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.settings {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.settingsTitle {
+    font-size: 1.125rem;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.contener {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1.5rem;
+}
+
+.outerWrapper {
+    padding: 0.5rem 0;
+    background-color: #0f212e;
+    border-radius: 10px;
+    display: block;
+    max-height: 100px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 0.875rem;
+    width: 180px;
+}
+
+.navText {
+    color: #fff;
+    font-size: 0.875rem;
+    outline: none;
+    line-height: 150%;
+    font-weight: 600;
+    text-decoration: none;
+   
+}
+
+.exit {
+    color: #fff;
+    width: 70%;
+}
+
+.settingsIcon{
+    color: #b1bad3;
+    text-align: center;
+    padding-top: 2px;
+    padding-right: 5px;
+}
+
+.link{
+    padding: 10.5px 14px;
+    cursor: pointer;
+}
+
+.link:hover{
+    background-color: #071824;
+}
+
+.linkActive{
+    padding: 10.5px 14px;
+    background-color: #071824;
+    border-left: 3.5px solid #1475E1;
+    transition: .2s ;
+    cursor: pointer;
+}

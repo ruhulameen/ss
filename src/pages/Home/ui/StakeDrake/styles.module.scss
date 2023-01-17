@@ -1,0 +1,76 @@
+.stakeDrakeBlock{
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    margin-top: 1.5rem;
+    padding: 0 0 0 1.25rem;
+    border-radius: 0.25rem;
+    background: #0f212e;
+    height: 5rem;
+
+}
+
+.stakeDrakeLink{
+    justify-content: flex-start;
+}
+
+.link {
+    color: #d5dceb;
+    background: #2f4553;
+    border-radius: 0.25rem;
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 150%;
+    font-family: 'Proxima Nova', sans-serif;
+    text-decoration: none;
+}
+
+.link:hover{
+    background-color: #557086;
+}
+.link:active{
+    opacity: 0.5;
+}
+
+.stakeDrakeWrapper {
+    height: 80px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 192px;
+    gap: 10px;
+    
+}
+
+.stakeDrakeLinkImg {
+    width: 12rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.st0 {
+    fill: #ffffff
+}
+
+.img {
+    height: 5rem;
+    width: 192px;
+    object-fit: contain;
+}
+.imgDrake{
+    height: 40px;
+    object-fit: contain;
+    width: 100px;
+
+    
+}
+.imgStake{
+    height: 50px;
+    object-fit: contain;
+    
+}
+.imgBorder {
+    height: 60px;
+}

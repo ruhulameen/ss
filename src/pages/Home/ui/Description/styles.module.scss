@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sectionSocialCasino {
+    display: flex;
+    position: relative;
+    border-radius: .25rem;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    height:350px;
+}
+
+.imgSocialCasino{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.gradient{
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background: linear-gradient(270deg,#0f212e 42.02%,rgba(15,33,46,0) 100%);
+}
+
+.socialCasinoWrapper {
+    z-index: 1;
+    padding: 2.7rem 2.25rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    max-width: 530px;
+    gap: 1.25rem;
+    justify-content: center;
+}
+
+.description {
+   
+    // background-image: url(../../../assets/img/sweeps-home-hero-en.avif);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-size: 80%;
+    width: auto;
+    height: auto;
+    margin-bottom: 48px;
+    // min-height: 290px;
+
+}
+
+.contener{
+    display: flex;
+    flex-direction: column;
+    padding: 2.75rem 2.25rem;
+    max-width: 530px;
+    margin-left: auto;
+    background: linear-gradient(to right, #0f212e17  20% ,#0f212e84 40%, #0f212e 70%)
+}
+.title {
+    font-family: 'Proxima Nova',sans-serif;
+    font-size: 1.25rem;
+    color:#fff;
+    text-align: left;
+    margin-bottom: 1.25rem;
+}
+
+.info{
+    color: #B1BAD3;
+    font-size: .875rem;
+    text-align: justify;
+    margin-bottom: 1.25rem;
+    font-family: 'Proxima Nova',sans-serif;
+    font-weight: 400;
+    align-items: center;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: .875rem;
+    background-color: #1475e1;
+    color: #fff;
+    border-radius: 5px;
+    padding: .65rem;
+    font-weight: 600;
+    width: 35%;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color:#105fb4 ; 
+}
+
+.btn:active{
+    opacity: 0.5;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contentBlock{
+    display: flex;
+    gap: 1rem;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: .25rem;
+}
+
+.contentTitle{
+    color: #fff;
+    line-height: 1.5;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Proxima Nova', sans-serif;
+    margin-bottom: .5rem;
+}
+
+.contentText{
+    color: #b1bad3;
+    line-height: 1.5;
+    font-size: .875rem;
+    font-weight: 400;
+    align-items: center;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+
+.linkWrapper{
+    display: flex;
+    justify-content: flex-end;
+}
